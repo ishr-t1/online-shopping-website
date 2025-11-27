@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="jewelry.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>ShopEase</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for products...">
+            <button id="searchButton">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#clothes">Clothes</a></li>
+                <li><a href="#jewellery">Jewellery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="home-section">
+            <div class="hero-content">
+                <h2>Welcome to ShopEase</h2>
+                <p>Your one-stop shop for the latest in fashion and jewellery.</p>
+                <p>Your ultimate destination for fashion and jewellery.</p>
+            </div>
+            
+            <!-- Promotional Pamphlets -->
+            <div class="promotions">
+                <div class="promotion-card">
+                    <span class="close-btn">&times;</span>
+                    <h3>Special Offer!</h3>
+                    <p>Get 20% off on all men's clothing. Limited time offer!</p>
+                </div>
+                <div class="promotion-card">
+                    <span class="close-btn">&times;</span>
+                    <h3>Deal of the Day</h3>
+                    <p>Buy one, get one free on select women's accessories. Shop now!</p>
+                </div>
+                <div class="promotion-card">
+                    <span class="close-btn">&times;</span>
+                    <h3>Seasonal Sale</h3>
+                    <p>Up to 50% off on kids' clothing for the winter season. Hurry!</p>
+                </div>
+            </div>
+        </section>
+        <!-- C L O T H S -->
+        <section id="clothes">
+            <h2>Clothes</h2>
+            <div class="category">
+                <h3>Men</h3>
+                <div class="product-grid">
+                    <div class="product-item" data-name="M1">
+                        <img src="yello kurta.png" alt="Kurta">
+                        <h3>Kurta</h3>
+                        <p>Men Printed Cotton Blend Straight Kurta  (Yellow).</p>
+                        <p class="price">₹599.00</p> 
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item" data-name="M2">
+                        <img src="jeanssd.png" alt="Jeans">
+                        <h3>Jeans</h3>
+                        <p>Denim look
+                            Men Relaxed Fit Mid Rise Black Jeans</p>
+                        <p class="price">₹499.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item" data-name="M3">
+                        <img src="dfgdg.webp" alt="Shirt">
+                        <h3>Shirt</h3>
+                        <p>Men Regular Fit Checkered Cut Away Collar Casual Shirt</p>
+                        <p class="price">₹452.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                        
+                    </div>
+                </div>
+                <a href="#all-men-clothes" class="view-more">View All Men Clothes</a>
+            </div>
+
+            <div class="category">
+                <h3>Women</h3>
+                <div class="product-grid">
+                    <div class="product-item" data-name="W1">
+                        <img src="kurti.webp" alt="Kurti">
+                        <h3>Kurti</h3>
+                        <p>Women Printed, Embroidered Viscose Rayon Flared Kurta  (Pink, Beige)</p>
+                        <p class="price">₹449.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item" data-name="W2">
+                        <img src="salwar.webp" alt="Salwar Suit">
+                        <h3>Salwar Suit</h3>
+                        <p>Women Viscose Rayon Kurta Pant Dupatta Set</p>
+                        <p class="price">₹709.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item" data-name="W3">
+                        <img src="gown.webp" alt="Gown">
+                        <h3>Gown</h3>
+                        <p>Floral Print Georgette Stitched Anarkali Gown  (Purple)</p>
+                        <p class="price">₹999.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#all-women-clothes" class="view-more">View All Women Clothes</a>
+            </div>
+
+            <div class="category">
+                <h3>Kids</h3>
+                <div class="product-grid">
+                    <div class="product-item" data-name="K1">
+                        <img src="k1.webp" alt="Full Length frok">
+                        <h3>Full Length frok</h3>
+                        <p>Girls Maxi/Full Length Festive/Wedding Dress  (Maroon, Short Sleeve)</p>
+                        <p class="price">₹629.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item" data-name="K2">
+                        <img src="k2.webp" alt="Knee Casual Dress">
+                        <h3>Knee Casual Dress</h3>
+                        <p>Baby Girls Below Knee Casual Dress  (Green, Short Sleeve)</p>
+                        <p class="price">₹299.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item" data-name="K3">
+                        <img src="k3.webp" alt="T Shirt">
+                        <h3>T Shirt</h3>
+                        <p>Boys Solid Cotton Blend T Shirt  (Multicolor, Pack of 1)</p>
+                        <p class="price">₹349.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#all-kids-clothes" class="view-more">View All Kids Clothes</a>
+            </div>
+        </section>
+        
+        <!-- J E W E L L E R Y -->
+        <section id="jewellery">
+            <h2>Jewellery</h2>
+            <div class="product-grid">
+                <div class="product-item" data-name="J1">
+                    <img src="j1.webp" alt="Jewel Set">
+                    <h3>Jewel Set</h3>
+                    <p>Brass Silver Silver Jewel Set  (Pack of 1)</p>
+                    <p class="price">₹357.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="J2">
+                    <img src="j2.webp" alt="Bangle">
+                    <h3>Bangle</h3>
+                    <p>Brass Rhodium Bangle  (Pack of 2).</p>
+                    <p class="price">₹1080.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="J3">
+                    <img src="j3.webp" alt="Fancy earrings">
+                    <h3>Fancy earrings</h3>
+                    <p>Fancy Party Wear Crystal Alloy Drops & Danglers</p>
+                    <p class="price">₹799.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <a href="#all-jewellery" class="view-more">View All Jewellery</a>
+        </section>
+
+        <!-- Sections for viewing all items in each category -->
+        <section id="all-men-clothes" class="category-section">
+            <h2>All Men Clothes</h2>
+            <div class="product-grid">
+                <!-- All men clothes items here -->
+                <div class="product-item" data-name="M4">
+                    <img src="cargo.webp" alt="Men Cargo">
+                    <h3>Men Cargo</h3>
+                    <p>CargoPants
+                        MadeofPolyester Blend
+                        Color:Black, White</p>
+                    <p class="price">₹999.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="M5">
+                    <img src="suit.webp" alt="Suit">
+                    <h3>Suit</h3>
+                    <p>Men Single Breasted - 2 button Solid Suit</p>
+                    <p class="price">₹4839.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="M6">
+                    <img src="hawai.webp" alt="Hawaiian shirt">
+                    <h3>Hawaiian shirt</h3>
+                    <p>Men Hawai Fit Color Block Spread Collar Casual Shirt</p>
+                    <p class="price">₹499.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="M7">
+                    <img src="sherwani.webp" alt="Sherwani">
+                    <h3>Sherwani</h3>
+                    <p>N.B.F Fashion Printed Sherwani</p>
+                    <p class="price">₹5899.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="M8">
+                    <img src="blazer.webp" alt="Blazer">
+                    <h3>Blazer</h3>
+                    <p>Men Solid Single Breasted Festive & Wedding Blazer  (Black)</p>
+                    <p class="price">₹1509.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="M9">
+                    <img src="jacket.webp" alt="Jacket">
+                    <h3>Jacket</h3>
+                    <p>Men Washed Jacket</p>
+                    <p class="price">₹1150.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="all-women-clothes" class="category-section">
+            <h2>All Women Clothes</h2>
+            <div class="product-grid">
+                <!-- All women clothes items here -->
+                <div class="product-item" data-name="W4">
+                    <img src="saree.webp" alt="Saree">
+                    <h3>Saree</h3>
+                    <p>Woven Banarasi Pure Silk Saree  (Dark Green)</p>
+                    <p class="price">₹4386.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="W5">
+                    <img src="lehenga.webp" alt="Lehenga Choli">
+                    <h3>Lehenga Choli</h3>
+                    <p>Ikat Semi Stitched Lehenga Choli  (Orange)</p>
+                    <p class="price">₹1786.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="M6">
+                    <img src="sharara.webp" alt="Sharara">
+                    <h3>Sharara</h3>
+                    <p>Women Regular Fit Purple Viscose Rayon Trousers</p>
+                    <p class="price">₹600.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="M7">
+                    <img src="womshirt.webp" alt="Women shirt">
+                    <h3>Women shirt</h3>
+                    <p>Women Regular Fit Solid Spread Collar Casual Shirt</p>
+                    <p class="price">₹364.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="M8">
+                    <img src="womtrouser.webp" alt="Trouser">
+                    <h3>Trouser</h3>
+                    <p>Women Flared Black Viscose Rayon Trousers</p>
+                    <p class="price">₹589.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="M9">
+                    <img src="hoodie.webp" alt="Sweatshirt">
+                    <h3>Sweatshirt</h3>
+                    <p>Women Full Sleeve Color Block Hooded Sweatshirt</p>
+                    <p class="price">₹375.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="all-kids-clothes" class="category-section">
+            <h2>All Kids Clothes</h2>
+            <div class="product-grid">
+                <!-- All kids clothes items here -->
+                <div class="product-item" data-name="K4">
+                    <img src="K44.webp" alt="Boy Kurta">
+                    <h3>Boy Kurta</h3>
+                    <p>Boys Festive & Party Kurta, Waistcoat and Pyjama Set  (Light Blue Pack of 1)</p>
+                    <p class="price">₹529.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="K5">
+                    <img src="K5.webp" alt="Girl Kurta and Pyjama Set">
+                    <h3>Girl Kurta and Pyjama Set</h3>
+                    <p class="price">₹379.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="K6">
+                    <img src="K6.webp" alt="Short">
+                    <h3>Short</h3>
+                    <p>Short For Boys Casual Woven Cotton Blend  (Blue, Pack of 1)</p>
+                    <p class="price">₹679.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="K7">
+                    <img src="k7.webp" alt="Casual Dress">
+                    <h3>Casual Dress</h3>
+                    <p>Girls Midi/Knee Length Casual Dress  (Light Blue, Sleeveless)</p>
+                    <p class="price">₹126.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="K8">
+                    <img src="k8.webp" alt="Baby Dress">
+                    <h3>Baby Dress</h3>
+                    <p>Baby Boys & Baby Girls Casual Dress Pyjama  (Multicolor)</p>
+                    <p class="price">₹266.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="K9">
+                    <img src="k9.webp" alt="Romper For Baby">
+                    <h3>Romper For Baby</h3>
+                    <p>Romper For Baby Boys & Baby Girls Casual Printed Pure Cotton  (Multicolor, Pack of 2)</p>
+                    <p class="price">₹443.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="all-jewellery" class="category-section">
+            <h2>All Jewellery items</h2>
+            <div class="product-grid">
+                <!-- All jewellery items here -->
+                <div class="product-item" data-name="J4">
+                    <img src="j4.webp" alt="Bride Bangle">
+                    <h3>Bride Bangle</h3>
+                    <p>Alloy Crystal Gold-plated Chudas</p>
+                    <p class="price">₹1072.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="J5">
+                    <img src="j5.webp" alt="Festive Necklace">
+                    <h3>Festive Necklace</h3>
+                    <p>Alloy Gold-plated Gold Jewel Set  (Pack of 1)</p>
+                    <p class="price">₹1007.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="J6">
+                    <img src="j6.webp" alt="Copper Plated Ring">
+                    <h3>Copper Plated Ring</h3>
+                    <p>Designer Flower Leaf Open Crystal Copper Crystal Copper Plated Ring</p>
+                    <p class="price">₹226.00</p> 
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="J7">
+                    <img src="j7.webp" alt="Nathiya">
+                    <h3>Nathiya</h3>
+                    <p>Lucentarts Jewellery Cubic Zirconia Gold-plated Plated Alloy Nathiya</p>
+                    <p class="price">₹148.00</p> 
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="J8">
+                    <img src="j8.webp" alt="Anklet">
+                    <h3>Anklet</h3>
+                    <p>silver anklet silver payal silver pajeb for girl and women Alloy Anklet</p>
+                    <p class="price">₹589.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-name="J9">
+                    <img src="j9.webp" alt="Maang Tikka">
+                    <h3>Maang Tikka</h3>
+                    <p>Alloy Maang Tikka</p>
+                    <p class="price">₹3500.00</p> 
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- C O N T A C T    U S  -->
+        <section id="contact" class="contact-section">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+                <p>Have a question or feedback? Feel free to get in touch with us!</p>
+                <form id="contactForm" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+        
+        <!-- A B O U T     U S  -->
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Welcome to ShopEase, your ultimate destination for fashion and jewellery! Our mission is to provide you with the latest trends and styles in clothing and accessories, all in one convenient place.</p>
+                <p>With a curated selection of products from top brands and designers, we aim to make your shopping experience enjoyable and effortless. Whether you're looking for everyday essentials or special occasion pieces, we've got you covered.</p>
+                <p>At ShopEase, we value quality, affordability, and customer satisfaction above all else. We're committed to delivering exceptional service and ensuring that you find exactly what you're looking for.</p>
+                <p>Thank you for choosing ShopEase. Happy shopping!</p>
+            </div>
+            
+            <div class="testimonials">
+                <h3>What Our Customers Say</h3>
+                <div class="testimonial-slider">
+                    <div class="testimonial">
+                        <img src="wom1av.jpg" alt="Customer 1">
+                        <blockquote>
+                            "I absolutely love ShopEase! The quality of their products is unmatched, and their customer service is top-notch. I highly recommend them to anyone looking for stylish and affordable clothing and jewellery."
+                        </blockquote>
+                        <cite>- Emily, satisfied customer</cite>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <img src="wrrw.png" alt="Customer 2">
+                        <blockquote>
+                            "Shopping at ShopEase is always a delight. They have a wide range of options to choose from, and I always find something that suits my style. Plus, their fast shipping is a bonus!"
+                        </blockquote>
+                        <cite>- James, repeat customer</cite>
+                    </div>
+
+                    <div class="testimonial">
+                        <img src="wom1av.jpg" alt="Customer 1">
+                        <blockquote>
+                            "I like the delivery of ShopEase which is always on time. Thank you ShopEase. And product quality is also fine."
+                        </blockquote>
+                        <cite>-	Sakshi, satisfied customer</cite>
+                    </div>
+
+                    <div class="testimonial">
+                        <img src="wrrw.png" alt="Customer 2">
+                        <blockquote>
+                            "The product is good; all are satisfied, but the bad thing is they don't have return policy."
+                        </blockquote>
+                        <cite>- Mohamed Halith, new customer</cite>
+                    </div>
+
+                    <div class="testimonial">
+                        <img src="wom1av.jpg" alt="Customer 1">
+                        <blockquote>
+                            " I stumbled upon ShopEase while searching for reliable online services, and I must say, I'm impressed.
+                            The product quality surpassed my expectations, and their team ensured a smooth experience from start to finish."
+                        </blockquote>
+                        <cite>- Chaya Devi P, satisfied customer</cite>
+                    </div>
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+            
+            <div class="cta-section">
+                <h3>Stay Connected</h3>
+                <p>Sign up for our newsletter to get the latest updates on new arrivals, exclusive deals, and more.</p>
+                <form id="newsletterForm" action="#" method="post">
+                    <input type="email" id="newsletterEmail" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social-media">
+                    <p>Follow us on social media:</p>
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+            </div>
+        </section>
+        
+   
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Online Shopping. All rights reserved.</p>
+    </footer>
+
+     <!-- Modal -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalProductTitle"></h2>
+            <img id="modalProductImage" src="" alt="Product Image">
+            <p id="modalProductPrice"></p>
+            <button id="modalAddToCart">Add to Cart</button>
+            <button id="modalOrderNow">Order Now</button>
+        </div>
+    </div>
+
+     <!-- Order Modal -->
+     <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="orderForm">
+                <label for="orderName">Name:</label>
+                <input type="text" id="orderName" name="name" required>
+                <label for="orderPhone">Phone Number:</label>
+                <input type="tel" id="orderPhone" name="phone" required>
+                <label for="orderEmail">Email:</label>
+                <input type="email" id="orderEmail" name="email" required>
+                <label for="orderAddress">Address:</label>
+                <textarea id="orderAddress" name="address" required></textarea>
+                <label for="orderQuantity">Quantity:</label>
+                <input type="number" id="orderQuantity" name="quantity" required>
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Receipt Modal -->
+    <div id="receiptModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Order Receipt</h2>
+            <div id="receiptContent"></div>
+            <button id="closeReceipt">Close</button>
+        </div>
+    </div>
+
+
+
+    <script src="cjscripts.js"></script>
+ 
+</body>
+</html>
